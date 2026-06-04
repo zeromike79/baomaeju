@@ -1,5 +1,14 @@
 # 바오맥주 바베큐&탕수육 웹사이트 변경 이력
 
+## [1.3.0] - 2026-06-04
+### 보안
+- 전 페이지 `upgrade-insecure-requests` CSP 메타태그 추가
+- 구글맵 iframe 제거 → "구글 지도에서 보기" 링크 버튼으로 교체 (HTTPS 혼합콘텐츠 해결)
+- GitHub Pages HTTPS 강제 적용 (`https_enforced: true`)
+- HTTPS 인증서 발급 완료 (baobeer.kr, www.baobeer.kr)
+
+---
+
 ## [1.2.0] - 2026-06-04
 ### 수정
 - `menu.html` IMG_0716 메뉴판 기준 누락 항목 추가
